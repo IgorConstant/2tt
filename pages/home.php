@@ -589,6 +589,37 @@
                         </div>
                     </div>
                 </div>
+                <div>
+                    <div>
+                        <a href="#modalSuzzara" uk-toggle><img class="roundedImg" src="assets/images/portfolio/suzzara/suzzara1.jpg" alt="Suzzara"></a>
+                        <div id="modalSuzzara" class="uk-modal-container" uk-modal>
+                            <div class="uk-modal-dialog uk-modal-body">
+                                <button class="uk-modal-close-default" type="button" uk-close></button>
+                                <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider>
+                                    <ul class="uk-slider-items uk-child-width-1-1 uk-child-width-1-3@s uk-child-width-1-3@m">
+                                        <li>
+                                            <img src="assets/images/portfolio/suzzara/suzzara1.jpg" alt="Suzzara">
+                                        </li>
+                                        <li>
+                                            <img src="assets/images/portfolio/suzzara/suzzara2.jpg" alt="Suzzara">
+                                        </li>
+                                        <li>
+                                            <video src="assets/images/portfolio/suzzara/suzzara3.mp4"></video>
+                                        </li>
+                                        <li>
+                                            <img src="assets/images/portfolio/suzzara/suzzara4.jpg" alt="Suzzara">
+                                        </li>
+                                        <li>
+                                            <img src="assets/images/portfolio/suzzara/suzzara5.jpg" alt="Suzzara">
+                                        </li>
+                                    </ul>
+                                    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                                    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
