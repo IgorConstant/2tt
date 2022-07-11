@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
+
+:root {
+    --white-color: #fff;
+    --text-topbar: #616161;
+    --primary-color: #fbbe00;
+    --wpp-brand: #25d366;
+    --facebook-brand: #4661c5;
+    --linkedin-brand: #2867b2;
+    --instagram-brand: #c135b6;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+body {
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+* {
+    -webkit-font-smoothing: antialiased;
+}
+
+@font-face {
+    font-family: "SF Pro Display";
+    src: url(../../fonts/sf-font-regular.otf);
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+    /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--primary-color);
+    /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgba(50, 50, 50, 0.98);
+    /* color of the scroll thumb */
+    /* roundness of the scroll thumb */
+    border: 3px solid rgba(50, 50, 50, 0.98);
+    /* creates padding around scroll thumb */
+}
+
+.topbar {
+    background: rgba(50, 50, 50, 0.98);
+    padding: 15px;
+
+    @media (max-width: 999px) {
+        display: none;
+    }
+
+    a {
+        color: rgba(181, 181, 181, 1);
+        font-size: 13px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-decoration: none;
+
+        .fa-mobile-alt {
+            margin-right: 10px;
+        }
+
+        .fa-map-marker-alt {
+            margin-right: 10px;
+        }
+
+        &:hover {
+            color: var(--primary-color);
+        }
+    }
+
+    .block-social {
+        float: right;
+
+        ul {
+            list-style: none;
+            padding: 0px;
+            margin: 0px;
+
+            >li {
+                display: inline-block;
+                margin-right: 20px;
+            }
+        }
+    }
+}
+
+
+/* CONTATO */
+#contactUs {
+    background-color: var(--primary-color);
+
+    .min-title {
+        h5 {
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            text-align: center;
+            font-weight: 700;
+            font-family: "Source Sans Pro", sans-serif;
+            font-size: 20px;
+            padding: 40px 0;
+        }
+    }
+
+    .block-form {
+        background: #2d2d2d;
+        padding: 40px;
+
+        h2 {
+            color: var(--primary-color);
+            text-align: center;
+            font-family: "Source Sans Pro", sans-serif;
+            text-transform: uppercase;
+            font-weight: 700;
+            margin-bottom: 40px;
+        }
+
+        .uk-input {
+            height: 50px;
+        }
+
+        .uk-input,
+        .uk-textarea {
+            border-radius: 5px;
+            padding: 10px 20px;
+        }
+
+        .uk-button-default {
+            height: 50px;
+            margin-bottom: 0;
+            border-radius: 5px;
+            padding: 6px 30px;
+            font-family: inherit;
+            font-size: 14px;
+            line-height: 28px;
+            font-weight: 700;
+            color: #fff;
+            -webkit-transition: 0.4s;
+            -o-transition: 0.4s;
+            -moz-transition: 0.4s;
+            transition: 0.4s;
+            background: var(--primary-color);
+            margin-top: 30px;
+            border: none;
+        }
+    }
+}
+
+
+#middleService {
+    background: #2d2d2d;
+    padding: 100px 0;
+
+    h2 {
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+
+    p {
+        color: #fff;
+        font-family: "SF Pro Display";
+        font-size: 17px;
+    }
+
+}
+
+.uk-modal {
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.36);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.3px);
+    -webkit-backdrop-filter: blur(4.3px);
+
+    .uk-modal-dialog {
+        background: transparent !important;
+
+        .uk-slider {
+            border-radius: 10px;
+        }
+    }
+}   

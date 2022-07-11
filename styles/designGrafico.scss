@@ -1,0 +1,49 @@
+#introBannerDesign {
+    background: #cc318f;
+    padding: 60px 0 0 0;
+
+    .titleService {
+        p {
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            color: #fff;
+            font-weight: 700;
+        }
+
+        h1 {
+            color: #fff;
+            text-transform: uppercase;
+            font-weight: 700;
+            font-family: "Source Sans Pro", sans-serif;
+        }
+    }
+}
+
+
+#introServiceDesign {
+    background: #eaeaea;
+
+    .bgService {
+        background-image: url(../../assets/images/bg-design.png);
+        height: 530px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .introService {
+
+        @media(min-width: 1200px) {
+            padding: 10% 15%;
+        }
+
+        h2 {
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+
+        p {
+            color: #2d2d2d;
+            font-family: "SF Pro Display";
+        }
+    }
+}

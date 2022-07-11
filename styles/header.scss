@@ -1,0 +1,194 @@
+.headerHome {
+
+    .uk-navbar-container {
+        transition: background-color 0.5s ease;
+    }
+
+    .uk-navbar-container:not(.uk-navbar-transparent) {
+        background: rgba(47, 47, 47, 1);
+        padding: 15px;
+    }
+
+    .uk-navbar-container>.uk-container .uk-navbar-left {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .uk-navbar-left {
+        img {
+            z-index: 9999;
+        }
+
+        @media (max-width: 768.98px) {
+            margin-top: 15px;
+        }
+    }
+
+    .uk-navbar-toggle {
+        z-index: 9999;
+        color: #fff !important;
+    }
+
+    .uk-navbar-right {
+        z-index: 9999;
+
+        .uk-navbar-nav {
+            li {
+                a {
+                    padding: 0px 27px;
+                    font-weight: 700;
+                    color: var(--primary-color);
+                }
+            }
+        }
+    }
+
+    @media (min-width: 1024px) {
+        .uk-video-container {
+            position: absolute;
+            top: 53px;
+            bottom: 0;
+            width: 100%;
+            height: 700px;
+            overflow: hidden;
+
+            video {
+                min-width: 100%;
+                min-height: 100%;
+
+                width: auto;
+                height: auto;
+
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -51%);
+            }
+        }
+    }
+
+    @media (max-width: 768.98px) {
+        .uk-video-container {
+            video {
+                object-fit: cover;
+                width: 100vw;
+                height: 750px;
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+        }
+    }
+
+    .overlay {
+        position: absolute;
+        width: 100%;
+        height: 700px;
+        top: 53px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 8;
+        overflow: hidden;
+
+        @media (max-width: 768.98px) {
+            height: 750px;
+            top: 0;
+        }
+
+        .uk-container {
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .chamada {
+            z-index: 10;
+            font-family: "Mulish", sans-serif;
+            visibility: visible;
+            line-height: 30px;
+            letter-spacing: 4px;
+            font-weight: 400;
+            font-size: 20px;
+            margin: 0px;
+            padding: 0px;
+            color: rgb(251, 190, 0);
+            opacity: 1;
+        }
+
+        .title-chamada {
+            z-index: 9;
+            font-family: "Mulish", sans-serif;
+            visibility: visible;
+            line-height: 50px;
+            font-weight: 900;
+            font-size: 45px;
+            margin: 20px 0px;
+            padding: 0px;
+            color: rgb(254, 254, 254);
+            width: 579px;
+            height: auto;
+            opacity: 1;
+            text-transform: uppercase;
+
+            @media (max-width: 768.98px) {
+                width: 100%;
+                font-size: 25px;
+                line-height: 40px;
+            }
+        }
+
+        .uk-button-default {
+            border-radius: 5px;
+            padding: 10px 28px;
+            font-size: 16px;
+            color: var(--white-color);
+            font-family: "Mulish", sans-serif;
+            font-weight: 700;
+        }
+    }
+
+    .uk-offcanvas {
+        z-index: 9999;
+
+        .uk-nav-primary {
+            text-transform: uppercase;
+            font-family: "Source Sans Pro", sans-serif;
+            font-weight: 700;
+        }
+    }
+}
+
+
+.servicesHeader {
+
+    .uk-navbar-container:not(.uk-navbar-transparent) {
+        background: #323232fa;
+    }
+
+
+    .uk-navbar-left {
+        font-family: "Source Sans Pro", sans-serif;
+        margin: 0px !important;
+    }
+
+    .uk-navbar-toggle {
+        color: #fff !important;
+    }
+
+    .uk-navbar-right {
+        z-index: 9999;
+
+        .uk-navbar-nav {
+            li {
+                a {
+                    padding: 0px 27px;
+                    font-weight: 700;
+                    color: var(--primary-color);
+                }
+            }
+        }
+    }
+
+}

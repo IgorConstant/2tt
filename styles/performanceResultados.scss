@@ -1,0 +1,59 @@
+#introBannerPerformance {
+    background: #73af01;
+    padding: 60px 0 0 0;
+
+    .titleService {
+        p {
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            color: #fff;
+            font-weight: 700;
+        }
+
+        h1 {
+            color: #fff;
+            text-transform: uppercase;
+            font-weight: 700;
+            font-family: "Source Sans Pro", sans-serif;
+        }
+    }
+}
+
+#introServicePerformance {
+    background: #eaeaea;
+
+    .bgServicePerformance {
+        background-image: url(../../assets/images/bg-performance.png);
+        height: 530px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .introServicePerformance {
+
+        @media(min-width: 1200px) {
+            padding: 10% 15%;
+        }
+
+        h2 {
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+
+        p {
+            color: #2d2d2d;
+            font-family: "SF Pro Display";
+            font-size: 14px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+
+            >li {
+                display: inline-block;
+                margin: 0 10px 10px 0;
+            }
+        }
+    }
+}
